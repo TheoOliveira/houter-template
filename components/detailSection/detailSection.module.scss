@@ -1,0 +1,49 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+
+  .title h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1B1C57;
+  }
+
+  .subTitle {
+    color: #F59E0B;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+
+    &:before {
+      content: '-'
+    }
+
+  }
+
+  .detailWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .description p {
+      max-width: 430px;
+    }
+  }
+
+  .houseDetailWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .detailItem {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+
+    }
+
+    margin-bottom: 40px;
+  }
+
+}

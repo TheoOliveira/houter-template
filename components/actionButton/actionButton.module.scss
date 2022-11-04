@@ -1,0 +1,16 @@
+.actionButtonStyle {
+  padding: 16px 16px;
+  width: 109px;
+  height: 48px;
+  background: #10B981;
+  border-radius: 32px;
+  color: white;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+  }
+
+
+}
