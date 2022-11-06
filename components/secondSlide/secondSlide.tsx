@@ -39,6 +39,7 @@ const SecondSlide: React.FC = (props): React.ReactElement => {
             showThumbs={false}
             infiniteLoop={true}
             centerSlidePercentage={50}
+            autoPlay={true}
             >
 
                     {thirdSlideArray.map((item, i) => (

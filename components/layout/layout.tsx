@@ -5,6 +5,7 @@ import HeroSection from "../heroSection/heroSection";
 import FirstSlide from "../firstSlide/firstSlide";
 import DetailSection from "../detailSection/detailSection";
 import SecondSlide from "../secondSlide/secondSlide";
+import BlogSection from "../blogSection/blogSection";
 
 
 function Layout() {
@@ -15,6 +16,7 @@ function Layout() {
             <FirstSlide/>
             <DetailSection/>
             <SecondSlide/>
+            <BlogSection/>
         </div>
     );
 }

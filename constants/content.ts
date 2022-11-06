@@ -92,3 +92,29 @@ export const thirdSlideArray = [
         description: 'Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.'
     }
 ]
+
+//Blog Section
+export const blogSectionSubtitle = 'See tips and trick from our partnership'
+export const blogSectionTitle = 'Find out more about selling and buying homes'
+export const blogPostsArray = [
+    {
+        title: 'The things we need to check when we want to buy a house 1',
+        image: '/images/blog_image.png',
+        description: 'Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house'
+    },
+    {
+        title: 'The things we need to check when we want to buy a house 2',
+        image: '/images/blog_image.png',
+        description: 'Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house'
+    },
+    {
+        title: 'The things we need to check when we want to buy a house 3',
+        image: '/images/blog_image.png',
+        description: 'Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house'
+    },
+    {
+        title: 'The things we need to check when we want to buy a house 4',
+        image: '/images/blog_image.png',
+        description: 'Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house'
+    },
+]
