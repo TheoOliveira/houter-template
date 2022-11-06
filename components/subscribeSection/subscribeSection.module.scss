@@ -1,0 +1,66 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+  background: url("/images/background_subscribe.svg") no-repeat;
+  background-size: cover;
+  height: 312px;
+  display: flex;
+  justify-content: center;
+
+  .centralWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .subscribeWrapper {
+      position: relative;
+      min-width: 400px;
+    }
+
+    h3 {
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      /* or 150% */
+      text-align: center;
+      text-transform: capitalize;
+      /* MRT App / Headline */
+      color: #1B1C57;
+    }
+
+    input {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 4px 4px 4px 45px;
+      gap: 16px;
+      border: none;
+      margin: 16px;
+      /* Shadow / Smooth */
+      height: 54px;
+      width: 496px;
+      box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
+      border-radius: 32px;
+      background: url("/icons/email.svg") no-repeat scroll 7px 7px;
+      background-position: 15px;
+      &:focus{
+        outline: none;
+        border: none;
+      }
+
+    }
+
+    a {
+      position: absolute;
+      height: 54px;
+      top:20%;
+      right:0;
+      width: 180px;
+
+    }
+  }
+}

@@ -118,3 +118,9 @@ export const blogPostsArray = [
         description: 'Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house'
     },
 ]
+
+//Subscribe section
+
+export const subscribeTitle = 'Subscribe For More Info and update from Hounter'
+export const subscribeButton = 'Subscribe Now'
+export const subscribePlaceholder = 'Type your email'

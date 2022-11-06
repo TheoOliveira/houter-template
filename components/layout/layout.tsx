@@ -6,6 +6,7 @@ import FirstSlide from "../firstSlide/firstSlide";
 import DetailSection from "../detailSection/detailSection";
 import SecondSlide from "../secondSlide/secondSlide";
 import BlogSection from "../blogSection/blogSection";
+import SubscribeSection from "../subscribeSection/subscribeSection";
 
 
 function Layout() {
@@ -17,6 +18,7 @@ function Layout() {
             <DetailSection/>
             <SecondSlide/>
             <BlogSection/>
+            <SubscribeSection/>
         </div>
     );
 }
