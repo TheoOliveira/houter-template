@@ -1,0 +1,47 @@
+.container {
+  h3{
+    color: #0E1735;
+  }
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+
+  flex: 1 2 100px;
+  .firstColumn {
+    width: 40%;
+
+    .logoContainer {
+      display: flex;
+      gap:16px;
+      align-items: center;
+    }
+    .socials{
+      display: flex;
+      gap: 24px;
+    }
+  }
+
+  .secondColumn {
+    display: flex;
+    gap: 40px;
+     ul   {
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 18px;
+       /* identical to box height */
+
+       text-transform: capitalize;
+
+       /* Neutral / 500 */
+
+       color: #888B97;
+
+       padding: 0px;
+      list-style: none;
+
+    }
+
+  }
+}

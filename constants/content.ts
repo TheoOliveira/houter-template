@@ -124,3 +124,46 @@ export const blogPostsArray = [
 export const subscribeTitle = 'Subscribe For More Info and update from Hounter'
 export const subscribeButton = 'Subscribe Now'
 export const subscribePlaceholder = 'Type your email'
+
+//Footer Section
+export const logoImage = '/images/logo.png'
+export const footerDescription = 'We provide information about properties such as houses, villas and apartments to help people find their dream home'
+export const facebookIcon = '/icons/facebook_icon.png'
+export const twitterIcon = '/icons/twitter_icon.png'
+export const instagramIcon = '/icons/instagram_icon.png'
+export const firstLinkTitle = 'Property'
+export const firstLinkArray = [
+    {
+        label: 'House',
+        url: '#firstSlide'
+    },
+    {
+        label: 'Apartment',
+        url: '#secondSlide'
+    },
+    {
+        label: 'Villa',
+        url: '#thirdSlide'
+    }
+]
+export const secondLinkTitle = 'Property'
+export const secondLinkArray = [
+    {
+        label: 'House',
+        url: '#firstSlide'
+    },
+    {
+        label: 'Apartment',
+        url: '#secondSlide'
+    },
+    {
+        label: 'Villa',
+        url: '#thirdSlide'
+    }
+]
+export const contactTitle = 'Contact'
+export const addressWords = {
+    address: '2464 Royal Ln. Mesa, New Jersey 45463',
+    telephone: '(671) 555-0110',
+    email: 'info@hounter.com'
+}

@@ -7,6 +7,7 @@ import DetailSection from "../detailSection/detailSection";
 import SecondSlide from "../secondSlide/secondSlide";
 import BlogSection from "../blogSection/blogSection";
 import SubscribeSection from "../subscribeSection/subscribeSection";
+import Footer from "../footer/footer";
 
 
 function Layout() {
@@ -19,6 +20,7 @@ function Layout() {
             <SecondSlide/>
             <BlogSection/>
             <SubscribeSection/>
+            <Footer/>
         </div>
     );
 }
