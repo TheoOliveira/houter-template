@@ -38,7 +38,7 @@ const SecondSlide: React.FC = (props): React.ReactElement => {
             showArrows={true}
             showThumbs={false}
             infiniteLoop={true}
-            centerSlidePercentage={50}
+            centerSlidePercentage={60}
             autoPlay={true}
             >
 

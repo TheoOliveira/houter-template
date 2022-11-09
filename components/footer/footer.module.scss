@@ -7,10 +7,17 @@
   padding: 40px 40px;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    flex: 1;
+  }
 
   flex: 1 2 100px;
   .firstColumn {
     width: 40%;
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
 
     .logoContainer {
       display: flex;
@@ -20,6 +27,9 @@
     .socials{
       display: flex;
       gap: 24px;
+      @media (max-width: 1024px) {
+        justify-content: center;
+      }
     }
   }
 

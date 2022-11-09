@@ -2,7 +2,9 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 40px;
-
+  h4{
+    color: #0E1735;
+  }
   .title h3 {
     font-weight: 600;
     font-size: 32px;
@@ -24,10 +26,30 @@
 
   .detailWrapper {
     display: flex;
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      height: 100%;
+      gap: 48px;
+    }
     justify-content: space-between;
 
     .description p {
       max-width: 430px;
+    }
+    .firstColumn {
+      @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        a{
+          height: auto;
+        }
+      }
+    }
+    .secondColumn {
+      display: flex;
+      justify-content: center;
     }
   }
 

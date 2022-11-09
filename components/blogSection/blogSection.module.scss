@@ -2,11 +2,14 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 60px 40px;
-
+  h4{
+    color: #0E1735;
+  }
   .titleWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 40px;
 
     .title h3 {
       font-weight: 600;
@@ -30,10 +33,19 @@
 
   .blogWrapper {
     display: flex;
-
-    .firstColumn {
+    @media (max-width: 1024px) {
       display: flex;
       flex-direction: column;
+    }
+
+    .firstColumn {
+    @media (max-width: 1024px) {
+      order: 1;
+
+    }
+      display: flex;
+      flex-direction: column;
+
 
       .detailBlogWrapper {
         display: flex;
@@ -55,7 +67,6 @@
 
           .image {
             width: 300px;
-
             img {
               width: 100%;
             }
@@ -71,6 +82,13 @@
     .secondColumn {
       display: flex;
       justify-content: flex-end;
+      @media (max-width: 1024px) {
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
 
       .highlightWrapper {
         width: 70%;

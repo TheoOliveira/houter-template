@@ -17,10 +17,19 @@
     .subscribeWrapper {
       position: relative;
       min-width: 400px;
+      @media (max-width: 1024px) {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+          position: unset;
+        }
+      }
     }
 
     h3 {
-      font-family: 'Lexend';
       font-style: normal;
       font-weight: 600;
       font-size: 32px;

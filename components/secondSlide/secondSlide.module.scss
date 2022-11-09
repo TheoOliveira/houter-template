@@ -1,7 +1,9 @@
 .container {
   padding: 40px;
   margin: 0 auto;
-
+  h4{
+    color: #0E1735;
+  }
 
   .slide {
     display: flex;
@@ -10,7 +12,6 @@
     align-content: center;
     align-items: center;
     padding: 16px;
-    width: 80%;
     img {
       width: 50%;
     }
