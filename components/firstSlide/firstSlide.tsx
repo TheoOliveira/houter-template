@@ -40,8 +40,8 @@ const FirstSlide: React.FC = (): React.ReactElement => {
                     <div className={styles.titleWrapper}>
                         <div className={styles.title}><h3>{slideTitle}</h3></div>
                         <div className={styles.arrows}>
-                            <ButtonBack className={styles.back}>{''}</ButtonBack>
-                            <ButtonNext className={styles.next}>{''}</ButtonNext>
+                            <ButtonNext className={styles.back}>{''}</ButtonNext>
+                            <ButtonBack className={styles.next}>{''}</ButtonBack>
                         </div>
                     </div>
                     <Slider className={styles.slideItem}>

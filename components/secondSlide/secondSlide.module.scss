@@ -1,4 +1,7 @@
 .container {
+  @media (max-width: 700px) {
+    display: none;
+  }
   padding: 40px;
   margin: 0 auto;
   h4{

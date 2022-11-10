@@ -5,6 +5,11 @@
   h4{
     color: #0E1735;
   }
+  .arrows {
+    @media (max-width: 700px) {
+      display: flex;
+    }
+  }
 .card {
   img {width: 80%;
   }
