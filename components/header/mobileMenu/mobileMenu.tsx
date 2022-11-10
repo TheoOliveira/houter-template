@@ -11,6 +11,7 @@ const MobileMenu: React.FC = (): React.ReactElement => {
     }
     return (
         <div className={context.open ? `${styles.mobileMenuBar} ${styles['active']}` : `${styles.mobileMenuBar}`}>
+            <div className={styles.closeBtn} onClick={()=> openMobileMenu()}></div>
             <ul className={styles.mobileMenuList}>
                 <li><a href="#first" onClick={()=> openMobileMenu()}>{firstButtonHeader}</a></li>
                 <li><a href="#second" onClick={()=> openMobileMenu()}>{secondButtonHeader}</a></li>
