@@ -1,8 +1,16 @@
 import React from "react";
 import styles from './header.module.scss';
 import {firstButtonHeader, fourthButtonHeader, secondButtonHeader, thirdButtonHeader} from "../../constants/content";
+import {MobileHeaderContext} from "../../context";
 
 const header: React.FC = (): React.ReactElement => {
+    const context = React.useContext(MobileHeaderContext);
+
+
+    function openMobileMenu() {
+        console.log('click')
+        context.open ? context.setOpen(false) : context.setOpen(true)
+    }
     return (<header className={styles.container}>
         <div className={styles.logoContainer}>
             <img src={"/images/logo.png"} alt="Logo"/>
@@ -11,6 +19,10 @@ const header: React.FC = (): React.ReactElement => {
         <div className={styles.buttonsHeader}>
             <a href="">{firstButtonHeader}</a><a href="">{secondButtonHeader}</a><a href="">{thirdButtonHeader}</a><a
             href="">{fourthButtonHeader}</a>
+        </div>
+        <div className={styles.mobileMenu}>
+            <button className={styles.mobileMenuBtn} onClick={(e) => openMobileMenu()}><img
+                src="/icons/bars.png"/></button>
         </div>
     </header>);
 }

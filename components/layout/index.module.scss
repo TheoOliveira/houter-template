@@ -2,11 +2,11 @@
 .container {
   background-image: url("/images/color_blur.svg"), url("/images/header_right_background.png"), url("/images/Vector.svg"), url("/images/Vector-3.svg"), url("/images/Vector-4.svg");
   background-repeat: no-repeat;
-  background-position: top left, top right, center right, center left, bottom right;
+  background-position: top left, top right 20%, center right, center left, bottom right;
   height: 3000px;
-  @media (min-width: 1440px){
-    background-size: 60%, auto, 60%, 60%, 60%, 60%;
-    background-position: top left, top right 30%, center right, center left, bottom right;
+  @media (max-width: 1440px){
+    background-size: 60%, 100%, 60%, 60%, 60%, 60%;
+    background-position: top left, top right, center right, center left, bottom right;
 
   }
 }
