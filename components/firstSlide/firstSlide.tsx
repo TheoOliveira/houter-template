@@ -27,7 +27,7 @@ const FirstSlide: React.FC = (): React.ReactElement => {
 
     }, [])
     return <>
-        <div className={styles.container}>
+        <div id="first" className={styles.container}>
             <div className={styles.sliderWrapper}>
                 <CarouselProvider
                     naturalSlideWidth={100}

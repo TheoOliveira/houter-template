@@ -9,7 +9,7 @@ const BlogSection: React.FC = (props): React.ReactElement => {
     function selectedImage(index){
         setSelected(blogPostsArray[index])
     }
-    return <div className={styles.container}>
+    return <div id="fourth" className={styles.container}>
         <div className={styles.titleWrapper}>
             <div className={styles.subTitle}><span>{blogSectionSubtitle}</span></div>
             <div className={styles.title}><h3>{blogSectionTitle}</h3></div>

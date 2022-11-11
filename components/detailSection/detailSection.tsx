@@ -12,7 +12,7 @@ import ActionButton from "../actionButton/actionButton";
 
 
 const DetailSection: React.FC = (props): React.ReactElement => {
-    return <div className={styles.container}>
+    return <div id="second" className={styles.container}>
         <div className={styles.detailWrapper}>
             <div className={styles.firstColumn}>
                 <div className={styles.subTitle}><span>{detailSubtitle}</span></div>
@@ -30,7 +30,7 @@ const DetailSection: React.FC = (props): React.ReactElement => {
 
                     </div>
                 </div>
-                <ActionButton label="Contate Agora" url={""}></ActionButton>
+                <ActionButton label="Contate Agora" url={""}/>
             </div>
             <div className={styles.secondColumn}>
                 <img src={houseDetailImage}/>

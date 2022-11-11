@@ -17,8 +17,8 @@ const header: React.FC = (): React.ReactElement => {
             <div className={styles.logoText}>Hounter</div>
         </div>
         <div className={styles.buttonsHeader}>
-            <a href="">{firstButtonHeader}</a><a href="">{secondButtonHeader}</a><a href="">{thirdButtonHeader}</a><a
-            href="">{fourthButtonHeader}</a>
+            <a href="#first">{firstButtonHeader}</a><a href="#second">{secondButtonHeader}</a><a href="#third">{thirdButtonHeader}</a><a
+            href="#fourth">{fourthButtonHeader}</a>
         </div>
         <div className={styles.mobileMenu}>
             <button className={styles.mobileMenuBtn} onClick={(e) => openMobileMenu()}><img

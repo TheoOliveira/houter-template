@@ -26,9 +26,9 @@ const Footer: React.FC = (): React.ReactElement => {
                 <p>{footerDescription}</p>
             </div>
             <div className={styles.socials}>
-                <div><img src={facebookIcon}/></div>
-                <div><img src={twitterIcon}/></div>
-                <div><img src={instagramIcon}/></div>
+                <div><a href={""}><img src={facebookIcon}/></a></div>
+                <div><a href={""}><img src={twitterIcon}/></a></div>
+                <div><a href={""}><img src={instagramIcon}/></a></div>
             </div>
         </div>
         <div className={styles.secondColumn}>

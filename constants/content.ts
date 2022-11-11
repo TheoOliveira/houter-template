@@ -135,30 +135,30 @@ export const firstLinkTitle = 'Property'
 export const firstLinkArray = [
     {
         label: 'House',
-        url: '#firstSlide'
+        url: '#first'
     },
     {
         label: 'Apartment',
-        url: '#secondSlide'
+        url: '#second'
     },
     {
         label: 'Villa',
-        url: '#thirdSlide'
+        url: '#third'
     }
 ]
 export const secondLinkTitle = 'Property'
 export const secondLinkArray = [
     {
         label: 'House',
-        url: '#firstSlide'
+        url: '#first'
     },
     {
         label: 'Apartment',
-        url: '#secondSlide'
+        url: '#second'
     },
     {
         label: 'Villa',
-        url: '#thirdSlide'
+        url: '#third'
     }
 ]
 export const contactTitle = 'Contact'

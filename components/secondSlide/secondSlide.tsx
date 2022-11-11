@@ -27,7 +27,7 @@ const SecondSlide: React.FC = (props): React.ReactElement => {
 
     }, [])
 
-    return <div className={styles.container}>
+    return <div id="third" className={styles.container}>
         <div className={styles.titleWrapper}>
             <div className={styles.subTitle}><span>{thirdSlideSubtitle}</span></div>
             <div className={styles.title}><h3>{thirdSlideTitle}</h3></div>
